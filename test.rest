@@ -1,0 +1,14 @@
+GET  http://localhost:8000/ramesh
+
+###
+
+POST http://localhost:8000/new
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name":"digvijay",
+    "address":"delhi",
+    "description":"I m in Delhi"
+    
+}
